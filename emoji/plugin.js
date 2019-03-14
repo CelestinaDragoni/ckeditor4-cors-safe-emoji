@@ -548,6 +548,7 @@ window.ckeditorEmojiList = [{"id":":grinning_face:","symbol":"😀","group":"peo
 
 			var emojiListUrl = editor.config.emoji_emojiListUrl || 'plugins/emoji/emoji.json',
 				arrTools = CKEDITOR.tools.array;
+			var charactersToStart = 2;
 
 			editor._.emoji = {};
 			editor._.emoji.list = window.ckeditorEmojiList; // No external request required.
